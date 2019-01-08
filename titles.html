@@ -11,7 +11,6 @@
       body {
         margin: 0;
       }
-
       ul.sidenav {
         list-style-type: none;
         margin:0;
@@ -47,21 +46,15 @@
         color: #8F8F8F;
       }
 
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: 800px) {
         ul.sidenav {
           width: 100%;
           height: auto;
-          position: relative;
+          position:relative;
+          padding:0px;
         }
-        
         ul.sidenav li a {
-          float: left;
-          padding: 15px;
-        }
-      }
-
-      @media screen and (max-width: 900px) {
-        ul.sidenav li a {
+          margin-left:0px;
           text-align: center;
           float: none;
         }
