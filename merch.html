@@ -8,68 +8,72 @@
   </head>
   <!--Responsive Side Navigation Bar Code-->
     <style>
-    body {
-      margin: 0;
-    }
+      body {
+        margin: 0;
+      }
 
-    ul.sidenav {
-      list-style-type: none;
-      margin: 0px;
-      padding: 10px;
-      width: 21%;
-      background-color: #202020;
-      position: fixed;
-      height: 100%;
-      overflow: auto;
-      font-size: 17.5px;
-    }
-
-    ul.sidenav li a {
-      display: block;
-      color: #BEBEBE;
-      padding: 8px 16px;
-      text-decoration: none;
-    }
-     
-    ul.sidenav li a.active {
-      font-weight: bold;
-    }
-
-    ul.sidenav li a:hover{
-      color: #8F8F8F;
-    }
-
-    ul.sidenav li a.active:hover{
-      color: #8F8F8F;
-    }
-
-    div.content {
-      margin-left: 25%;
-      padding: 1px 16px;
-      height: 1000px;
-    }
-
-    @media screen and (max-width: 900px) {
       ul.sidenav {
-        width: 100%;
-        height: auto;
-        position: relative;
+        list-style-type: none;
+        margin:0;
+        padding: 25px;
+        padding-left:0px;
+        width: 22%;
+        background-color: #202020;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        font-size: 17.5px;
+        top:0;
+        left:0;
       }
-      
-      ul.sidenav li a {
-        float: left;
-        padding: 15px;
-      }
-      
-      div.content {margin-left: 0;}
-    }
 
-    @media screen and (max-width: 900px) {
       ul.sidenav li a {
-        text-align: center;
-        float: none;
+        display: block;
+        color: #BEBEBE;
+        padding: 8px 16px;
+        text-decoration: none;
+        margin-left: 25px;
       }
-    }
+       
+      ul.sidenav li a.active {
+        font-weight: bold;
+      }
+
+      ul.sidenav li a:hover{
+        color: #8F8F8F;
+      }
+
+      ul.sidenav li a.active:hover{
+        color: #8F8F8F;
+      }
+
+      div.content {
+        margin-left: 25%;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+
+      @media screen and (max-width: 900px) {
+        ul.sidenav {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        
+        ul.sidenav li a {
+          float: left;
+          padding: 15px;
+        }
+        
+        div.content {margin-left: 0;}
+      }
+
+      @media screen and (max-width: 900px) {
+        ul.sidenav li a {
+          text-align: center;
+          float: none;
+        }
+      }
     </style>
   </head>
 
