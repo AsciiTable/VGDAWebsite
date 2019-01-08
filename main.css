@@ -1,5 +1,5 @@
 body {
-  font-family: ariel;
+  font-family: georgia;
   padding: 20px;
   background: black;
 }
@@ -30,7 +30,12 @@ body {
 .card {
   background-color: white;
   padding: 20px;
+  padding-right:47px;
+  padding-left:47px;
+  padding-bottom:25px;
   margin-top: 20px;
+  font-size: 20px;
+
 }
 
 /* Clear floats after the columns */
