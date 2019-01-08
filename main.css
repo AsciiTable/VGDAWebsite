@@ -19,14 +19,6 @@ body {
   width: 74%;
 }
 
-
-/* Left column 
-.leftcolumn {
-  float: left;
-  width: 24%;
-  padding-right: 20px;
-}*/
-
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
@@ -48,17 +40,9 @@ body {
   clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn { 
+/* Responsive layout*/
+@media screen and (max-width: 900px) {
+  .rightcolumn { 
     width: 100%;
     padding: 0;
   }
