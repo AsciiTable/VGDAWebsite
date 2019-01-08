@@ -4,19 +4,11 @@ body {
   background: black;
 }
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
-}
-
 /* Create two unequal columns that floats next to each other */
 /* Right column */
 .rightcolumn { 
   float: right;
-  width: 74%;
+  width: 75%;
 }
 
 /* Fake image */
@@ -33,8 +25,8 @@ body {
   padding-right:47px;
   padding-left:47px;
   padding-bottom:25px;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 19px;
 
 }
 
