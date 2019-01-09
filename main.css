@@ -32,6 +32,9 @@ img{
   padding-left:47px;
   padding-bottom:25px;
   margin-top: 15px;
+  margin-left: auto;
+  margin-right:auto;
+  width: 80%;
   font-size: 19px;
 }
 
@@ -116,6 +119,7 @@ a:hover{
     padding: 0;
   }
   .card{
-    margin-right: 0px;
+    width:auto;
+    margin-left: 0px;
   }
 }
