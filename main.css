@@ -2,6 +2,7 @@ body {
   font-family: georgia;
   padding: 20px;
   background: black;
+  margin: 0px;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -27,6 +28,9 @@ body {
   padding-bottom:25px;
   margin-top: 15px;
   font-size: 19px;
+}
+
+@media screen and (max-width: 800px){
 
 }
 
@@ -45,6 +49,7 @@ body {
 /*Unvisited Link*/
 a:link{
   color:black;
+
 }
 
 /*Hovered Link*/
@@ -53,10 +58,58 @@ a:hover{
   text-decoration: none;
 }
 
+/*Side Navigation Bar*/
+.sidenav{
+  list-style-type: none;
+  margin:0;
+  padding: 25px;
+  padding-left:0px;
+  width: 22%;
+  background-color: #202020;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-size: 17.5px;
+  top:0;
+  left:0;
+}
+
+.sidenav li a {
+  display: block;
+  color: #BEBEBE;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 25px;
+}
+ 
+.sidenav li a.active {
+  font-weight: bold;
+}
+
+.sidenav li a:hover{
+  color: #8F8F8F;
+}
+
+.sidenav li a.active:hover{
+  color: #8F8F8F;
+}
+
 /* Responsive layout*/
-@media screen and (max-width: 900px) {
-  .rightcolumn { 
+@media screen and (max-width: 800px) {
+  /*Nav bar stacks on top*/
+  .sidenav {
     width: 100%;
-    padding: 0;
+    height: auto;
+    position:relative;
+    padding:0px;
+  }
+  .sidenav li a {
+    margin-left:0px;
+    text-align: center;
+    float: none;
+  }
+  /*Contents stack under Nav bar*/
+  .rightcolumn{
+    width: 100%;
   }
 }
