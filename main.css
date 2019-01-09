@@ -39,7 +39,18 @@ body {
 
 /*List of Links*/
 .ulList{
-  
+  list-style-type: none;
+}
+
+/*Unvisited Link*/
+a:link{
+  color:black;
+}
+
+/*Hovered Link*/
+a:hover{
+  color: gray;
+  text-decoration: none;
 }
 
 /* Responsive layout*/
