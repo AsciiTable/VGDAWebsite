@@ -14,8 +14,7 @@ img{
 /* Right column */
 .rightcolumn { 
   float: right;
-  width: 65%;
-  padding-right: 50px;
+  width: 70%;
 }
 
 /* Fake image */
@@ -115,5 +114,8 @@ a:hover{
   .rightcolumn{
     width: 100%;
     padding: 0;
+  }
+  .card{
+    margin-right: 0px;
   }
 }
