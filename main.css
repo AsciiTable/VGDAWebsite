@@ -11,13 +11,14 @@ img{
   height:auto;
 }
 
+
 /* Right column */
 .rightcolumn { 
   float: right;
   width: 75%;
 }
 
-/* Fake image */
+/* Fake image: DELETE AFTER ALL IS DONE*/
 .fakeimg {
   background-color: #aaa;
   width: 90%;
@@ -38,13 +39,13 @@ img{
   font-size: 19px;
 }
 
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 
 /*List of Links*/
 .ulList{
@@ -57,11 +58,17 @@ a:link{
 
 }
 
+/*Visited Link*/
+a:visited{
+  color:black;
+}
+
 /*Hovered Link*/
 a:hover{
   color: gray;
   text-decoration: none;
 }
+
 
 /*Side Navigation Bar*/
 .sidenav{
