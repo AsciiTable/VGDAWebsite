@@ -122,46 +122,24 @@ a:hover{
 
 
 /*Social Media Buttons*/
-.fa {
+.social{
   padding: 10px;
   font-size: 20px;
   width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px;
-  border-radius: 50%;
+  border-radius: 40%;
+  background: #BEBEBE;
+  color: rgba(0, 0, 0, 0.5);
+  background: #BEBEBE;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.fa:hover{
+.social:hover{
   background: #8F8F8F;
   color: rgba(0, 0, 0, 0.5);
 }
-
-.fa-facebook{
-  background: #BEBEBE;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.fa-twitter {
-  background: #BEBEBE;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.fa-instagram {
-  background: #BEBEBE;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.fa-youtube{
-  background: #BEBEBE;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.fa-github{
-  background: #BEBEBE;
-  color: rgba(0, 0, 0, 0.5);
-}
-
 
 /* Responsive layout*/
 @media screen and (max-width: 800px) {
