@@ -27,10 +27,6 @@ br{
   line-height: 1.5;
 }
 
-.center{
-  vertical-align: middle;
-}
-
 
 /* Right column */
 .rightcolumn { 
@@ -156,6 +152,19 @@ a:hover{
   position: relative;
   margin: auto;
   background:black;
+  white-space:nowrap;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.verticalAlign {
+  vertical-align: middle;
+  max-height:500px;
+  width:100%
 }
 
 /* Caption text */
