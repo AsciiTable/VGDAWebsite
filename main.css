@@ -27,6 +27,10 @@ br{
   line-height: 1.5;
 }
 
+.center{
+  vertical-align: middle;
+}
+
 
 /* Right column */
 .rightcolumn { 
@@ -148,8 +152,10 @@ a:hover{
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  height:500px;
   position: relative;
   margin: auto;
+  background:black;
 }
 
 /* Caption text */
