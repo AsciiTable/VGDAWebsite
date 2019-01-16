@@ -156,19 +156,18 @@ a:hover{
 }
 
 .helper {
-  display: table-cell;
-  height: 100%;
+  content: "";
+  display: inline-block;
+  height: 500px;
   vertical-align: middle;
 }
 
 .verticalAlign {
-  display:table-cell;
-  vertical-align: middle;
   max-height:500px;
   width:100%
-  margin-bottom:auto;
-  margin-top:auto;
-  display:block;
+  line-height: 500px;
+  vertical-align: middle;
+
 }
 
 /* Caption text */
