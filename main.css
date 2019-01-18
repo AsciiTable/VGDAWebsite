@@ -34,6 +34,13 @@ br{
 	line-height: 1.5;
 }
 
+/* Google Form Layout */
+.form{
+	width: 85%;
+	height: 700px;
+	margin: auto;
+}
+
 /************************************************************************/
 /* R I G H T  C O L U M N */
 
