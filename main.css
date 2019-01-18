@@ -1,259 +1,289 @@
+/************************************************************************/
+/* G E N E R A L */
+
+/* Font, spacing, background color of general website */
 body {
-  font-family: georgia;
-  padding: 20px;
-  background: black;
-  margin: 0px;
+	font-family: georgia;
+	padding: 20px;
+	background: black;
+	margin: 0px;
 }
 
-/*Image will resize with browser screen*/
+/* Image will resize with browser screen */
 img{
-  width: 100%;
-  height:auto;
+	width: 100%;
+	height:auto;
 }
 
+/* Specifications for logo at top of Navigation */
 .logo{
-  width: 50%;
-  height: auto;
-  margin-left: 25px;
-  margin-bottom: 45px;
-  margin-top:25px;
+	width: 50%;
+	height: auto;
+	margin-left: 25px;
+	margin-bottom: 45px;
+	margin-top:25px;
 }
 
+/* Line spacing for paragraphs */
 p{
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
+/* Line spacing for line breaks */
 br{
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
+/************************************************************************/
+/* R I G H T  C O L U M N */
 
-/* Right column */
+/* Right Column Space Allowance */
 .rightcolumn { 
-  float: right;
-  width: 75%;
+	float: right;
+	width: 75%;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
-  padding: 20px;
-  padding-right:47px;
-  padding-left:47px;
-  padding-bottom:25px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right:auto;
-  width: 80%;
-  font-size: 19px;
+	background-color: white;
+	padding: 20px;
+	padding-right:47px;
+	padding-left:47px;
+	padding-bottom:25px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right:auto;
+	width: 80%;
+	font-size: 19px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
+/************************************************************************/
+/* L I N K   C U S T O M I Z A T I O N */
 
-/*List of Links*/
+/* List of Links */
 .ulList{
-  list-style-type: none;
+	list-style-type: none;
 }
 
-/*Unvisited Link*/
+/* Unvisited Link */
 a:link{
-  color:black;
-
+	color:black;
 }
 
-/*Visited Link*/
+/* Visited Link */
 a:visited{
-  color:black;
+	color:black;
 }
 
-/*Hovered Link*/
+/* Hovered Link */
 a:hover{
-  color: gray;
-  text-decoration: none;
+	color: gray;
+	text-decoration: none;
 }
 
+/************************************************************************/
+/* S I D E  N A V I G A T I O N  B A R */
 
-/*Side Navigation Bar*/
+/* Side Navigation Bar */
 .sidenav{
-  list-style-type: none;
-  margin:0;
-  padding: 25px;
-  padding-left:0px;
-  width: 22%;
-  background-color: #202020;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  font-size: 17.5px;
-  top:0;
-  left:0;
+	list-style-type: none;
+	margin:0;
+	padding: 25px;
+	padding-left:0px;
+	width: 22%;
+	background-color: #202020;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	font-size: 17.5px;
+	top:0;
+	left:0;
 }
 
+/* Page List Layout */
 .sidenav li a {
-  display: block;
-  color: #BEBEBE;
-  padding: 8px 16px;
-  text-decoration: none;
-  margin-left: 25px;
+	display: block;
+	color: #BEBEBE;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin-left: 25px;
 }
  
+ /* Active Page */
 .sidenav li a.active {
-  font-weight: bold;
+	font-weight: bold;
 }
 
+/* Unactive Page Hovered */
 .sidenav li a:hover{
-  color: #8F8F8F;
+	color: #8F8F8F;
 }
 
+/* Active Page Hovered */
 .sidenav li a.active:hover{
-  color: #8F8F8F;
+	color: #8F8F8F;
 }
 
+/* Space under last page item */
 .last{
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
+/************************************************************************/
+/* S O C I A L   M E D I A */
 
-
-/*Social Media Buttons*/
+/*Social Media Button Layout*/
 .social{
-  padding: 10px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px;
-  border-radius: 40%;
-  background: #BEBEBE;
-  color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	font-size: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+	border-radius: 40%;
+	background: #BEBEBE;
+	color: rgba(0, 0, 0, 0.5);
 }
 
+/* Hovered Button */
 .social:hover{
-  background: #8F8F8F;
-  color: rgba(0, 0, 0, 0.5);
+	background: #8F8F8F;
+	color: rgba(0, 0, 0, 0.5);
 }
 
+/************************************************************************/
+/* A U T O M A T I C  S L I D E S H O W */
 
-
-/*Slideshow*/
+/*Initialize Slideshow*/
 .mySlides {
-  display: none;
+	display: none;
 }
-/* Slideshow container */
+
+/* Slideshow Container */
 .slideshow-container {
-  max-width: 1000px;
-  height:500px;
-  position: relative;
-  margin: auto;
-  background:black;
-  white-space:nowrap;
+	max-width: 1000px;
+	height:500px;
+	position: relative;
+	margin: auto;
+	background:black;
+	white-space:nowrap;
 }
 
+/* Makes an Invisible Line to all Vertical Alignment */
+/* Use with <span class = "helper"></span> before <img src =...> */
 .helper {
-  content: "";
-  display: inline-block;
-  height: 500px;
-  vertical-align: middle;
+	content: "";
+	display: inline-block;
+	height: 500px;
+	vertical-align: middle;
 }
 
+/* Vertical Alignment */
+/* Use as <img src = "... class = "verticalAlign"> */
 .verticalAlign {
-  max-height:500px;
-  width:100%
-  line-height: 500px;
-  vertical-align: middle;
+	max-height:500px;
+	width:100%
+	line-height: 500px;
+	vertical-align: middle;
 
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: left;
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: left;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
 }
 
+/*Color of Active Dot */
 .active {
-  background-color: #717171;
+	background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+	from {opacity: .4} 
+	to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+	from {opacity: .4} 
+	to {opacity: 1}
 }
 
+/************************************************************************/
+/* R E S P O N S I V E  L A Y O U T */
 
-
-/* Responsive layout*/
+/* When window is < 800px */
 @media screen and (max-width: 800px) {
-  /*Nav bar stacks on top*/
-  .sidenav {
-    width: 100%;
-    height: auto;
-    position:relative;
-    padding:0px;
-  }
-  .sidenav li a {
-    margin-left:0px;
-    text-align: center;
-    float: none;
-  }
-  /*Contents stack under Nav bar*/
-  .rightcolumn{
-    width: 100%;
-    padding: 0;
-  }
-  .card{
-    width:auto;
-    margin-left: 0px;
-  }
 
-  .logo{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 10px;
-  }
+	/* Nav bar stacks on top */
+	.sidenav {
+		width: 100%;
+		height: auto;
+		position:relative;
+		padding:0px;
+	}
 
-  .fa{
-    margin-bottom: 15px;
-  }
+	/* Nav Bar Pages are now Centered */
+	.sidenav li a {
+		margin-left:0px;
+		text-align: center;
+		float: none;
+	}
 
-  .last{
-    margin-bottom:12px;
-  }
+	/*Contents stack under Nav bar*/
+	.rightcolumn{
+		width: 100%;
+		padding: 0;
+	}
+
+	.card{
+		width:auto;
+		margin-left: 0px;
+	}
+
+	/* Logo Margin Reduced and Centered*/
+	.logo{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+
+	/* Margin Between Page List and Social Media Buttons Removed */
+	.last{
+		margin-bottom:12px;
+	}
 }
 
 
