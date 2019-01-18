@@ -1,44 +1,75 @@
 <!doctype html>
 <html>
-  <head>
-    <title>
-      Blog | Video Game Development Association
-    </title>
-    <link href = "main.css" rel = "stylesheet" type = "text/css">
+	<head>
+		<!--Page Name on Tab-->
+		<title>
+			Blog | Video Game Development Association
+		</title>
+		<!--Import CSS Scripts/Libraries Here-->
+		<link href = "main.css" rel = "stylesheet" type = "text/css">
+
+		<!--Web/Tab Icon-->
+		<link rel = "icon" href = "media/logo/web_icon.png">
+
   </head>
 
   <body>
     <!--Set Active Page Navigation-->
     <ul class="sidenav">
-      <div class = "logo"><a href = "index.html"><img src = "media/csulb_vgda_logo.png"></div>
-      <li><a href="index.html">Home</a></li>
-      <li><a href ="about.html">About VGDA</a></li>
-      <li><a href="disciplines.html">Disciplines</a></li>
-      <li><a href="titles.html">Previous Titles</a></li>
-      <li><a href="events.html">Events</a></li>
-      <li><a class="active" href="blog.html">Blog</a></li>
-      <li><a href="merch.html">Merchandise</a></li>
-      <div class = "last"><li><a href="contact.html">Contact</a></li></div>
-      <!--Social Media Buttons-->
-      <div align = "center">
-        <a href="https://www.facebook.com/VGDACSULB/" target = "_blank"><img src = "media/fb_logo.svg" class="social"></a>
-        <a href="https://twitter.com/csulb_vgda" target = "_blank"><img src = "media/twitter_logo.svg" class="social"></a>
-        <a href="https://www.instagram.com/csulb.vgda/?hl=en" target = "_blank"><img src = "media/insta_logo.svg" class="social"></a>
-        <a href="https://www.youtube.com/channel/UClZTnyCYsciNZlvepb1belw" target = "_blank"><img src = "media/yt_logo.svg" class="social"></a>
-        <a href="https://vgda.itch.io/" target = "_blank"><img src = "media/itchio_logo.svg" class = "social"></a>
-      </div> 
-      <br><br> 
-    </ul>
-
-  <!--Write all content here-->
-    <div class="row">
-      <div class="rightcolumn">
-        <div class="card">
-          <h2>We Got Featured!</h2>
-          <h5>October 13th, 2018</h5>
-          <p>On the 29th of September, we hosted our very first official Kick-Off Game Jam with student developers from Cal Poly Pomona and CSU Fullerton! Joshua Rosen from the Long Beach Press Telegram also came in to interview many of our members and officers about the goals and processes of the 11-hour event. <a href = "https://www.presstelegram.com/2018/10/12/cal-state-long-beach-students-race-to-design-video-game-in-one-day-and-develop-marketable-skills-along-the-way/" target = "_blank">Read about it here!</a></p>
+        <!--Logo-->
+        <div class = "logo">
+          <a href = "index.html"><img src = "media/logo/csulb_vgda_logo.png">
         </div>
-      </div>
-    </div>
-  </body>
+
+			<!--List of Pages: class = "active" to set active page-->
+			<li><a href="index.html">Home</a></li>
+			<li><a href ="about.html">About VGDA</a></li>
+			<li><a href="disciplines.html">Disciplines</a></li>
+			<li><a href="titles.html">Previous Titles</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a class="active" href="blog.html">Blog</a></li>
+			<li><a href="merch.html">Merchandise</a></li>
+			<!--Last Page Item-->
+			<div class = "last">
+				<li><a href="contact.html">Contact</a></li>
+			</div>
+
+	      <!--Social Media Buttons-->
+			<div align = "center">
+				<a href="https://www.facebook.com/VGDACSULB/" target = "_blank"><img src = "media/logo/fb_logo.svg" class="social"></a>
+				<a href="https://twitter.com/csulb_vgda" target = "_blank"><img src = "media/logo/twitter_logo.svg" class="social"></a>
+				<a href="https://www.instagram.com/csulb.vgda/?hl=en" target = "_blank"><img src = "media/logo/insta_logo.svg" class="social"></a>
+				<a href="https://www.youtube.com/channel/UClZTnyCYsciNZlvepb1belw" target = "_blank"><img src = "media/logo/yt_logo.svg" class="social"></a>
+				<a href="https://vgda.itch.io/" target = "_blank"><img src = "media/logo/itchio_logo.svg" class = "social"></a>
+			</div> 
+			
+			<!--Two <br>s to prevent buttons from being cut off when height of window is too short-->
+			<br><br>  
+
+	  	</ul>
+
+		<!--Write all content here-->
+		<div class="row">
+			<div class="rightcolumn">
+				<!--One Card, One Post-->
+				<div class="card">
+					<!--Post Title-->
+					<h2>We Got Featured!</h2>
+					<!--Date Written-->
+					<h5>October 13th, 2018</h5>
+					
+					<!--Commence Block of Text-->
+					<p>On the 29th of September, we hosted our very first official Kick-Off Game Jam with student developers from Cal Poly Pomona and CSU Fullerton! Joshua Rosen from the Long Beach Press Telegram also came in to interview many of our members and officers about the goals and processes of the 11-hour event. <a href = "https://www.presstelegram.com/2018/10/12/cal-state-long-beach-students-race-to-design-video-game-in-one-day-and-develop-marketable-skills-along-the-way/" target = "_blank">Read about it here!</a></p>
+
+				<!--End of Card-->
+		        </div>
+
+		    <!--End of Right Column-->
+			</div>
+
+		<!--End of Row-->
+	    </div>
+
+	</body>
+
 </html>
